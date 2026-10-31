@@ -1,4 +1,4 @@
--- Employee Database Project (MySQL 8+)
+
 CREATE DATABASE IF NOT EXISTS employee_db;
 USE employee_db;
 
@@ -22,10 +22,10 @@ VALUES
 -- READ: view all employees
 SELECT * FROM employees;
 
--- FILTER: employees in the IT department
+
 SELECT * FROM employees WHERE department = 'IT';
 
--- SORT: highest salary first
+
 SELECT * FROM employees ORDER BY salary DESC;
 
 -- UPDATE: change one employee's city (use the primary key)
